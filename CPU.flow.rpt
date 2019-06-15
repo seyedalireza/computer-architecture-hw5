@@ -1,5 +1,5 @@
 Flow report for CPU
-Tue Jun 04 19:22:52 2019
+Sat Jun 15 08:18:56 2019
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -38,22 +38,22 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +------------------------------------+----------------------------------------------+
-; Flow Status                        ; Successful - Tue Jun 04 19:22:49 2019        ;
+; Flow Status                        ; Successful - Sat Jun 15 08:18:50 2019        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; CPU                                          ;
-; Top-level Entity Name              ; ALU                                          ;
+; Top-level Entity Name              ; Multiplier_32bit                             ;
 ; Family                             ; Cyclone III                                  ;
 ; Met timing requirements            ; N/A                                          ;
-; Total logic elements               ; 676 / 5,136 ( 13 % )                         ;
-;     Total combinational functions  ; 676 / 5,136 ( 13 % )                         ;
-;     Dedicated logic registers      ; 0 / 5,136 ( 0 % )                            ;
+; Total logic elements               ; 3,532 / 10,320 ( 34 % )                      ;
+;     Total combinational functions  ; 3,532 / 10,320 ( 34 % )                      ;
+;     Dedicated logic registers      ; 0 / 10,320 ( 0 % )                           ;
 ; Total registers                    ; 0                                            ;
-; Total pins                         ; 109 / 183 ( 60 % )                           ;
+; Total pins                         ; 128 / 183 ( 70 % )                           ;
 ; Total virtual pins                 ; 0                                            ;
 ; Total memory bits                  ; 0 / 423,936 ( 0 % )                          ;
 ; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                               ;
 ; Total PLLs                         ; 0 / 2 ( 0 % )                                ;
-; Device                             ; EP3C5F256C6                                  ;
+; Device                             ; EP3C10F256C6                                 ;
 ; Timing Models                      ; Final                                        ;
 +------------------------------------+----------------------------------------------+
 
@@ -63,23 +63,23 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/04/2019 19:22:33 ;
+; Start date & time ; 06/15/2019 08:17:37 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPU                 ;
 +-------------------+---------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                   ;
-+------------------------------------+--------------------------------+---------------+-------------+----------------+
-; Assignment Name                    ; Value                          ; Default Value ; Entity Name ; Section Id     ;
-+------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 48710649357183.155965995310748 ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                       ; --            ; ALU         ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; ALU         ; Top            ;
-; TOP_LEVEL_ENTITY                   ; ALU                            ; CPU           ; --          ; --             ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                            ; --            ; --          ; eda_blast_fpga ;
-+------------------------------------+--------------------------------+---------------+-------------+----------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                        ;
++------------------------------------+--------------------------------+---------------+------------------+----------------+
+; Assignment Name                    ; Value                          ; Default Value ; Entity Name      ; Section Id     ;
++------------------------------------+--------------------------------+---------------+------------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 48710649357183.156057045714856 ; --            ; --               ; --             ;
+; PARTITION_COLOR                    ; 16764057                       ; --            ; Multiplier_32bit ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; Multiplier_32bit ; Top            ;
+; TOP_LEVEL_ENTITY                   ; Multiplier_32bit               ; CPU           ; --               ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                            ; --            ; --               ; eda_blast_fpga ;
++------------------------------------+--------------------------------+---------------+------------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -87,11 +87,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:08     ; 1.0                     ; 263 MB              ; 00:00:09                           ;
-; Fitter                    ; 00:00:05     ; 1.0                     ; 302 MB              ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 268 MB              ; 00:00:03                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 232 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:16     ; --                      ; --                  ; 00:00:18                           ;
+; Analysis & Synthesis      ; 00:00:47     ; 1.0                     ; 371 MB              ; 00:00:49                           ;
+; Fitter                    ; 00:00:11     ; 1.0                     ; 329 MB              ; 00:00:13                           ;
+; TimeQuest Timing Analyzer ; 00:00:07     ; 1.0                     ; 297 MB              ; 00:00:06                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 255 MB              ; 00:00:01                           ;
+; Total                     ; 00:01:05     ; --                      ; --                  ; 00:01:08                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

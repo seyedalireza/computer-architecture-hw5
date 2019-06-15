@@ -1,5 +1,5 @@
 Assembler report for CPU
-Tue Jun 04 19:22:49 2019
+Sat Jun 15 08:18:50 2019
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -37,11 +37,11 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Jun 04 19:22:49 2019 ;
+; Assembler Status      ; Successful - Sat Jun 15 08:18:50 2019 ;
 ; Revision Name         ; CPU                                   ;
-; Top-level Entity Name ; ALU                                   ;
+; Top-level Entity Name ; Multiplier_32bit                      ;
 ; Family                ; Cyclone III                           ;
-; Device                ; EP3C5F256C6                           ;
+; Device                ; EP3C10F256C6                          ;
 +-----------------------+---------------------------------------+
 
 
@@ -91,9 +91,9 @@ applicable agreement for further details.
 +----------------+-------------------------------------------------------+
 ; Option         ; Setting                                               ;
 +----------------+-------------------------------------------------------+
-; Device         ; EP3C5F256C6                                           ;
+; Device         ; EP3C10F256C6                                          ;
 ; JTAG usercode  ; 0xFFFFFFFF                                            ;
-; Checksum       ; 0x000F2B47                                            ;
+; Checksum       ; 0x0027183B                                            ;
 +----------------+-------------------------------------------------------+
 
 
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Jun 04 19:22:48 2019
+    Info: Processing started: Sat Jun 15 08:18:49 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off CPU -c CPU
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 232 megabytes
-    Info: Processing ended: Tue Jun 04 19:22:49 2019
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 255 megabytes
+    Info: Processing ended: Sat Jun 15 08:18:51 2019
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 
